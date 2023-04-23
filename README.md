@@ -2,7 +2,8 @@
 
 ## Penjelasan Program
 Skor akan bertambah 1 jika player bergerak ke kanan, kiri, atas, atau bawah
-Saya menambahkan kode baru pada method keyReleased di file Controller.java, yaitu setScore game dari score sebelumnya di tambah 1
+Saya menambahkan atribut baru yaitu tempKey pada kelas Controller, fungsinya untuk menyimpan nilai key sebelumnya
+Apabila nilai key tidak sama dengan tempKey, maka akan menambah 1 score game dan update nilai tempKey
 
 ## Dokumentasi
 <p align="center">
